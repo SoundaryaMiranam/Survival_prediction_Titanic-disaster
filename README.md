@@ -3,7 +3,7 @@ About: From the kaggle dataset: https://www.kaggle.com/c/titanic
 
 The sinking of the Titanic is one of the most infamous shipwrecks in history.On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew. While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
 
-Column details:
+# Column details:
 
 PassengerId: Unique Passenger ID
 
@@ -27,10 +27,10 @@ Fare: Passenger fare (British pound)
 
 embarked: Port of embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
-Purpose: 
+# Purpose: 
 To create a model that predicts which passengers survived the Titanic shipwreck.
 
-Exploratory Data Analysis:
+# Exploratory Data Analysis:
 
 Data visualization:
 
@@ -64,7 +64,7 @@ Data Processing:
 
 5. Create new feature based on Name feature by replace many titles with a more common name or classify them as Rare and then convert the categorical titles.
 
-Machine Learning:
+# Machine Learning:
 
 The LogisticRegression model gave an accurate on the training data was of 76.40 %.Further feature engineering techniques are required to apply on it.
 
